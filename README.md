@@ -169,22 +169,7 @@ Cliente desde tu PC contra la VM:
 UZM_API_URL=http://<IP_VM>:8080 go run ./cmd/cli
 ```
 
-## Git / Entrega
 
-```bash
-git init
-echo "data/uzm.db" >> .gitignore
-printf "*.exe\n*.out\n*.log\n.DS_Store\n" >> .gitignore
-
-git add .
-git commit -m "feat: API + CLI (users, books, sales, loans, ranking, transactions)"
-
-git branch -M main
-git remote add origin https://github.com/<tu-usuario>/<tu-repo>.git
-git push -u origin main
-```
-
-> Agregar colaboradores que solicite la pauta (Settings → Collaborators).
 
 ## Troubleshooting
 
